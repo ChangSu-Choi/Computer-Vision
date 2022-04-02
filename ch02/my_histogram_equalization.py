@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
+
 def my_calcHist(src):
     h, w = src.shape[:2]
     hist = np.zeros((256,))
@@ -12,6 +13,7 @@ def my_calcHist(src):
 
     return hist
 
+
 def my_normalize_hist(hist, pixel_num):
     normalized_hist = hist / pixel_num
     return normalized_hist
@@ -19,10 +21,10 @@ def my_normalize_hist(hist, pixel_num):
 
 def my_PDF2CDF(pdf):
     length = pdf.shape[0]
-    cdf = np.zeros((length, ))
+    cdf = np.zeros((length,))
     cdf[0] = pdf[0]
     for i in range(1, length):
-        cdf[i] = pdf[i] + cdf[i-1]
+        cdf[i] = pdf[i] + cdf[i - 1]
     return cdf
 
 
@@ -41,7 +43,8 @@ def my_equal_img(src, output_gray_level):
 
     return dst
 
-#input_image의  equalization된 histogram & image 를 return
+
+# input_image의  equalization된 histogram & image 를 return
 def my_hist_equal(src):
     (h, w) = src.shape
     max_gray_level = 255
@@ -67,6 +70,7 @@ def my_hist_equal(src):
 
     return dst, hist_equal
 
+
 if __name__ == '__main__':
     src = cv2.imread('../imgs/fruits_div3.jpg', cv2.IMREAD_GRAYSCALE)
     hist = my_calcHist(src)
@@ -74,7 +78,7 @@ if __name__ == '__main__':
 
     plt.figure(figsize=(8, 5))
     cv2.imshow('original', src)
-    cv2.imwrite('original.png',src)
+    cv2.imwrite('original.png', src)
     binX = np.arange(len(hist))
     plt.title('my histogram')
     plt.bar(binX, hist, width=0.5, color='g')
@@ -92,4 +96,3 @@ if __name__ == '__main__':
 
     cv2.waitKey()
     cv2.destroyAllWindows()
-
