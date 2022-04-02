@@ -8,3 +8,8 @@
 > # Ch02
 > Histogram Equalization.   
 > Theory : https://choics.tistory.com/18
+  
+  
+> # Ch02
+> Image Filtering.  
+> Theory : https://choics.tistory.com/24
