@@ -29,15 +29,15 @@ if __name__ == '__main__':
     bgr_cvt, div_x, bgr_select, bgr_phosphor = my_BGR2GRAY(img)
 
     cv2.imshow('bgr_cvt', bgr_cvt.astype(np.uint8))
-    cv2.imwrite('../result/cvtColor.jpg', bgr_cvt.astype(np.uint8))
+    cv2.imwrite('result/cvtColor.jpg', bgr_cvt.astype(np.uint8))
 
     cv2.imshow('div_x', div_x.astype(np.uint8))
-    cv2.imwrite('../result/B_3+R_3+G_3.jpg', div_x.astype(np.uint8))
+    cv2.imwrite('result/B_3+R_3+G_3.jpg', div_x.astype(np.uint8))
 
     cv2.imshow('bgr_select', bgr_select.astype(np.uint8))
-    cv2.imwrite('../result/B,G,R중 하나 선택.jpg', bgr_select.astype(np.uint8))
+    cv2.imwrite('result/B,G,R중 하나 선택.jpg', bgr_select.astype(np.uint8))
 
     cv2.imshow('bgr_phosphor', bgr_phosphor.astype(np.uint8))
-    cv2.imwrite('../result/변환공식사용.jpg', bgr_phosphor.astype(np.uint8))
+    cv2.imwrite('result/변환공식사용.jpg', bgr_phosphor.astype(np.uint8))
     cv2.waitKey()
     cv2.destroyAllWindows()
