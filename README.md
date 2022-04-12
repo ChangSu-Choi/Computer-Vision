@@ -13,3 +13,9 @@
 > # Ch03
 > Image Filtering.  
 > Theory : https://choics.tistory.com/24
+
+  
+> # Ch04
+> Image pyramids, Image downsampling,  Image upsampling, Gaussian image pyramid, Bilinear interpolation, Nearest-neighbor interpolation
+> Theory : https://choics.tistory.com/29, https://choics.tistory.com/30
+
