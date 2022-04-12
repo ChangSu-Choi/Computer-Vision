@@ -16,6 +16,6 @@
 
   
 > # Ch04
-> Image pyramids, Image downsampling,  Image upsampling, Gaussian image pyramid, Bilinear interpolation, Nearest-neighbor interpolation
+> Image pyramids, Image downsampling,  Image upsampling, Gaussian image pyramid, Bilinear interpolation, Nearest-neighbor interpolation.  
 > Theory : https://choics.tistory.com/29, https://choics.tistory.com/30
 
