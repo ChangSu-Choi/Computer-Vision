@@ -53,9 +53,9 @@ def main():
 
     cv2.imwrite('./result/DoG_x filter.jpg', x)
     cv2.imwrite('./result/DoG_y filter.jpg', y)
-    cv2.imwrite('./result/dst_x.jpg', dst_x/255)
-    cv2.imwrite('./result/dst_y.jpg', dst_y/255)
-    cv2.imwrite('./result/dst.jpg', dst/255)
+    cv2.imwrite('./result/dst_x.jpg', dst_x)
+    cv2.imwrite('./result/dst_y.jpg', dst_y)
+    cv2.imwrite('./result/dst.jpg', dst)
     cv2.waitKey()
     cv2.destroyAllWindows()
 
