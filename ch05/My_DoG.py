@@ -51,11 +51,11 @@ def main():
     cv2.imshow('dst_y', dst_y/255)
     cv2.imshow('dst', dst/255)
 
-    cv2.imwrite('./result/DoG_x filter.jpg', x)
-    cv2.imwrite('./result/DoG_y filter.jpg', y)
-    cv2.imwrite('./result/dst_x.jpg', dst_x)
-    cv2.imwrite('./result/dst_y.jpg', dst_y)
-    cv2.imwrite('./result/dst.jpg', dst)
+    cv2.imwrite('./result/DoG_x filter.png', x)
+    cv2.imwrite('./result/DoG_y filter.png', y)
+    cv2.imwrite('./result/dst_x.png', dst_x)
+    cv2.imwrite('./result/dst_y.png', dst_y)
+    cv2.imwrite('./result/dst.png', dst)
     cv2.waitKey()
     cv2.destroyAllWindows()
 
