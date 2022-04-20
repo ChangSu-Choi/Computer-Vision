@@ -126,11 +126,11 @@ def my_filtering(src, mask):
     반복문을 이용하여 filtering을 완성하기
     """
     for row in range(h):
-        src_row = row + m_h // 2
+        # src_row = row + m_h // 2
         for col in range(w):
-            src_col = col + m_w // 2
-            val = np.sum(np.multiply(mask, pad_img[src_row - (m_h // 2):src_row + (m_h // 2) + 1,
-                                           src_col - (m_w // 2): src_col + (m_w // 2) + 1]))
+            # src_col = col + m_w // 2
+            # val = np.sum(np.multiply(mask, pad_img[src_row - (m_h // 2):src_row + (m_h // 2) + 1,src_col - (m_w // 2): src_col + (m_w // 2) + 1]))
+            val = np.sum(pad_img[row:row + m_h, col:col + m_w] * mask)
             val = np.clip(val, 0, 255)  # 범위를 0~255로 조정
             dst[row][col] = val
 
