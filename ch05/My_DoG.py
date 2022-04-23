@@ -13,9 +13,6 @@ def get_DoG_filter(fsize, sigma=1):
     ###################################################
     y, x = np.mgrid[-(fsize//2):(fsize//2)+1, -(fsize//2):(fsize//2)+1]
 
-    print(x)
-    print(y)
-
     DoG_x = -(x / sigma**2) * np.exp(-(x**2 + y**2) / (2*sigma**2))
     DoG_y = -(y / sigma**2) * np.exp(-(x**2 + y**2) / (2*sigma**2))
 
