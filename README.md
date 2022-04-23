@@ -23,3 +23,7 @@
 > # Ch05  
 > Edge detection, Derivative of Gaussian(DoG)  
 > Theory : https://choics.tistory.com/32
+  
+> # Ch06  
+> Edge detection, CannyEdge, Laplacian of Gaussian(LoG)  
+> Theory : https://choics.tistory.com/39
