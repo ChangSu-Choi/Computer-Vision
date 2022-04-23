@@ -9,7 +9,7 @@ from my_filtering_true import my_filtering
 def get_LoG_filter(fsize, sigma=1):
     ###################################################
     # TODO                                            #
-    # DoG mask 완성                                    #
+    # LoG mask 완성                                    #
     ###################################################
     y, x = np.mgrid[-(fsize//2):(fsize//2)+1, -(fsize//2):(fsize//2)+1]
 
