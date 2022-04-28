@@ -33,19 +33,12 @@ def my_bilinear(src, scale):
             4. 그외
             """
             if m+1 > h-1  and n+1 > w-1:
-                value = src[m][n]
-                # value = 0
+                value = (1-s)*(1-t)*src[m][n]+s*(1-t)*src[m][n]+(1-s)*t*src[m][n]+s*t*src[m][n]
             elif m+1 > h-1:
-                value = src[m][n+1]
-                # value  = 0
+                value = (1-s)*(1-t)*src[m][n]+s*(1-t)*src[m][n+1]+(1-s)*t*src[m][n]+s*t*src[m][n+1]
             elif n+1 > w-1:
-                value = src[m+1][n]
-                # value = 0
+                value = (1-s)*(1-t)*src[m][n]+s*(1-t)*src[m][n]+(1-s)*t*src[m+1][n]+s*t*src[m+1][n]
             else:
-                # print('else')
-                # count += 1
-                # print(f'src[{m}][{n}] = {src[m][n]}')
-                # print(f'src[{m+1}][{n+1}] = {src[m+1][n+1]}')
                 value = (1-s)*(1-t)*src[m][n]+s*(1-t)*src[m][n+1]+(1-s)*t*src[m+1][n]+s*t*src[m+1][n+1]
 
 
