@@ -148,7 +148,7 @@ def HarrisDetector(src, gaus_filter_size = 3, gaus_sigma = 1, alpha = 0.04, thre
     G_IxIy = GaussianFiltering(IxIy, gaus_filter_size, gaus_sigma)
 
     #0 ~ 1 사이의 값으로 변경 후 0 ~ 255로 변경 -> 결과가 잘 나왔는지 확인하기위해서
-    G_dst_IxIy_Norm = ((G_IxIy - np.min(G_IxIy) )/np.max(G_IxIy - np.min(G_IxIy)) * 255 + 0.5).astype(np.uint8)
+    G_dst_IxIy_Norm = ((G_IxIy - np.min(G_IxIy))/np.max(G_IxIy - np.min(G_IxIy)) * 255 + 0.5).astype(np.uint8)
     cv2.imshow('Gaussian filter: G_IxIx', G_IxIx)
     cv2.imwrite('./results/Gaussian filter: Gaussian filter: G_IxIx.png', G_IxIx)
 
