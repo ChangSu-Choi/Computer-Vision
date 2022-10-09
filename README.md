@@ -3,6 +3,10 @@
 > Harris Interest Point Detection   
 > [Theory](https://swift-phosphorus-9a4.notion.site/Interest-points-87440806c0ff46c8a1a702c7d632296e), [Code](https://github.com/ChangSu-Choi/Computer-Vision/tree/main/Computer%20Vision/Interest%20points)
 
+> ## Integral harris corner
+> Feature descriptor, SIFT(Scale Invariant Feature Transform), SURF(’Speeded’ Up Robust Features), (code)Integral Harris Interest Point Detection   
+> [Theory](https://github.com/ChangSu-Choi/Computer-Vision/blob/main/Computer%20Vision/Integral_harris_corner/Feature_descriptor.pdf), [Code](https://github.com/ChangSu-Choi/Computer-Vision/blob/main/Computer%20Vision/Integral_harris_corner/integral_harris_corner.py)
+
 # ImageProcessing
  
 > ## Ch01
