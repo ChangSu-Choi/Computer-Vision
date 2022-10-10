@@ -5,7 +5,12 @@
 
 > ## Integral harris corner
 > Feature descriptor, SIFT(Scale Invariant Feature Transform), SURF(’Speeded’ Up Robust Features), (code)Integral Harris Interest Point Detection   
-> [Theory](https://github.com/ChangSu-Choi/Computer-Vision/blob/main/Computer%20Vision/Integral_harris_corner/Feature_descriptor.pdf), [Code](https://github.com/ChangSu-Choi/Computer-Vision/blob/main/Computer%20Vision/Integral_harris_corner)
+> [Theory](https://swift-phosphorus-9a4.notion.site/Feature-descriptor-895522947b42461a8e7e7e61d43dea57), [Code](https://github.com/ChangSu-Choi/Computer-Vision/blob/main/Computer%20Vision/Integral_harris_corner)
+
+> ## 2D transformations
+> Global Transform, Parametric Transform, Determining unknown transformations   
+> [Theory](https://swift-phosphorus-9a4.notion.site/2D-transformations-801339b356ee4b96a3fca3538c95c172), [Code]()
+
 
 # ImageProcessing
  
