@@ -9,7 +9,7 @@
 
 > ## 2D transformations
 > Global Transform, Parametric Transform, Determining unknown transformations   
-> [Theory](https://swift-phosphorus-9a4.notion.site/2D-transformations-801339b356ee4b96a3fca3538c95c172), [Code]()
+> [Theory](https://swift-phosphorus-9a4.notion.site/2D-transformations-801339b356ee4b96a3fca3538c95c172), [Code](https://github.com/ChangSu-Choi/Computer-Vision/tree/main/Computer%20Vision/2D%20transformations)
 
 
 # ImageProcessing
