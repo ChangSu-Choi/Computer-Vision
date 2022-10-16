@@ -8,7 +8,7 @@
 > [Theory](https://swift-phosphorus-9a4.notion.site/Feature-descriptor-895522947b42461a8e7e7e61d43dea57), [Code](https://github.com/ChangSu-Choi/Computer-Vision/blob/main/Computer%20Vision/Integral_harris_corner)
 
 > ## 2D transformations
-> Global Transform, Parametric Transform, Determining unknown transformations, (code)SIFT 
+> Global Transform, Parametric Transform, Determining unknown transformations, (code)SIFT   
 > [Theory](https://swift-phosphorus-9a4.notion.site/2D-transformations-801339b356ee4b96a3fca3538c95c172), [Code](https://github.com/ChangSu-Choi/Computer-Vision/tree/main/Computer%20Vision/2D%20transformations)
 
 
