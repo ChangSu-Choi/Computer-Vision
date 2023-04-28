@@ -147,10 +147,9 @@ def main():
     dst_for = backward(src, M)
     dst_for2 = backward(dst_for, np.linalg.inv(M))
 
-    cv2.imshow('20181602_original', src)
-    # 출력 결과에 본인 학번이 나오도록 작성
-    cv2.imshow('20181602_backward', dst_for)
-    cv2.imshow('20181602_backward2', dst_for2)
+    cv2.imshow('original', src)
+    cv2.imshow('backward', dst_for)
+    cv2.imshow('backward2', dst_for2)
     cv2.imwrite('./result/original.jpg', src)
     cv2.imwrite('./result/backward.jpg', dst_for)
     cv2.imwrite('./result/backward2.jpg', dst_for2)
